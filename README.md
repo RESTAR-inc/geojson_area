@@ -2,6 +2,7 @@
 
 [![Hex Version](https://img.shields.io/hexpm/v/geojson_area.svg)](https://hex.pm/packages/geojson_area)
 [![docs](https://img.shields.io/badge/docs-hexpm-blue.svg)](https://hexdocs.pm/geojson_area/)
+[![CI](https://github.com/RESTAR-inc/geojson_area/workflows/CI/badge.svg)](https://github.com/RESTAR-inc/geojson_area/actions?query=workflow%3ACI)
 
 Compute the area of
 [GeoJSON geometries](https://en.wikipedia.org/wiki/GeoJSON#Geometries).
@@ -46,7 +47,7 @@ Specialized functions such as `ring_area/1`, `polygon_area/1` or
 `multi_polygon_area/1` can work directly on coordinates:
 
 ```elixir
-3571505.575552885 = GeoJSON.Area.ring_area([
+3571505.5755534363 = GeoJSON.Area.ring_area([
   [139.7643756866455, 35.65645937572578],
   [139.78179931640625, 35.633720988098574],
   [139.75862503051758, 35.623256366178964],
